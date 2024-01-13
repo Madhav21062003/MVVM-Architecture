@@ -6,4 +6,13 @@
     </style>
 
     <style name="Theme.MVVMArchitecture" parent="Base.Theme.MVVMArchitecture" />
+
+    <style name="Theme.MVVMArchitecture.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MVVMArchitecture.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MVVMArchitecture.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
